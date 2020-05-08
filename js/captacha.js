@@ -1,8 +1,9 @@
 var verify = false; /* Variable global de verificacion */
 
 function captacha() { /* Función para verificar datos */
-    var captacha = prompt("Introduzca los siguientes numeros para continuar: 123789", ""); /* Alerta con campo de texto */
-    if (captacha == "123789") { /* Si los datos ingresados por el usuario son los mismo que la alerta, ejecutar */
+    var aleatorio = Math.round(Math.random()*10000000);
+    var captacha = prompt("Introduzca los siguientes numeros para continuar: "+aleatorio); /* Alerta con campo de texto */
+    if (captacha == aleatorio) { /* Si los datos ingresados por el usuario son los mismo que la alerta, ejecutar */
         alert("Verificado");
         verify = true;
     }else{ /* En caso contrario ejecutar */

@@ -6,7 +6,7 @@
     /* Contraseña de la base de datos */
     $password = '';
     /* Nombre de la base de datos */
-    $database = 'Login';
+    $database = 'Lockers';
 
     try {
         /* Parametros de conexion con los valores establecidos */
