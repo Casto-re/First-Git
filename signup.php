@@ -50,7 +50,7 @@
     <h1>SignUp</h1>
     <span> or <a href="login.php">Login</a></span>
     <form action="signup.php" method="post" name="Login">
-        <input type="text" name="user_name" placeholder="Nombre de usuario">
+        <input required type="text" name="user_name" placeholder="Nombre de usuario">
         <input type="text" name="email" placeholder="Correo electronico">
         <input type="password" name="password" placeholder="Contraseña">
         <input type="text" name="direcc" placeholder="Direccion">
